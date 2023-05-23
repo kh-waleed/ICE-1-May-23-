@@ -10,6 +10,11 @@ package exercise1;
  * @author dancye
  * @author Paul Bonenfant May 2020
  */
+
+/* IN-CLASS EXERCISE 1 (SYST17796)
+ * Modified by: Waleed Khan (Student ID: 991645816)
+ * Last modified: May 23, 2023
+ * Editing this provided Card class as part of ICE 1. */
 public class Card {
 
    private String suit; //clubs, spades, diamonds, hearts
@@ -43,4 +48,9 @@ public class Card {
     public void setValue(int value) {
         this.value = value;
     }  
+    
+    @Override
+    public String toString() {
+        return "Suit: " + suit + ", Value: " + value;
+    }
 }
