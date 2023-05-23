@@ -74,6 +74,7 @@ public class CardTrick {
      */
     private static void printInfo() {
     
+	//EDITING COMMENT REMOTELY FROM GITHUB FOR LATER MERGE 4:18 PM ON 23 MAY
         System.out.println("Congratulations, you guessed right!");
         System.out.println();
         
